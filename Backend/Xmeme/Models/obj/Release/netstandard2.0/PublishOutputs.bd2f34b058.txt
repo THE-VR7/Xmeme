@@ -1,0 +1,16 @@
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\Models.dll
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\Models.deps.json
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\Models.pdb
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\AutoMapper.dll
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\Microsoft.CSharp.dll
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\Microsoft.Extensions.Options.dll
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\Microsoft.Extensions.Primitives.dll
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\System.Buffers.dll
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\System.ComponentModel.Annotations.dll
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\System.Memory.dll
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\System.Numerics.Vectors.dll
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\System.Reflection.Emit.dll
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\System.Reflection.Emit.ILGeneration.dll
+C:\Users\HP\Documents\Xmeme\Backend\Xmeme\Models\bin\Release\netstandard2.0\publish\System.Runtime.CompilerServices.Unsafe.dll
