@@ -1,0 +1,51 @@
+<form [formGroup]="addMemeForm">
+    <div class="modal-body row">
+          
+     <!-- Name Form Control with Validation -->
+          <div class="form-group mb-0 col-sm-9 col-lg-12 ht-70 ">
+               <label for="name">Name</label>
+               <input type="text" class="form-control ft-13 cursor-disable" name="name"
+               placeholder="Enter Your Question" formControlName="name"
+               [ngClass]="{ 'is-valid' : addMemeForm?.get('name')?.valid && addMemeForm?.get('name')?.dirty ,
+                           'is-invalid' : addMemeForm?.get('name')?.invalid && addMemeForm?.get('name')?.dirty 
+                        }"
+               >
+               <p class="invalid-feedback my-0 py-0" *ngFor="let validation of validationMessages.name">
+                    <span class="py-0" *ngIf="addMemeForm?.get('name')?.hasError(validation.type) && (addMemeForm?.get('name')?.dirty || addMemeForm?.get('name')?.touched)">{{validation.message}}</span>
+               </p>
+          </div>
+
+     <!-- Description Form Control with Validation -->
+          <div class="form-group mb-0 col-sm-9 col-lg-12 ht-120">
+               <label for="caption" >Caption</label>
+               <textarea class="form-control text_area" name="caption" formControlName="caption" rows="4"
+               placeholder="Please Enter Your Caption Here" 
+               [ngClass]="{ 'is-valid' : addMemeForm?.get('caption')?.valid && addMemeForm?.get('caption')?.dirty ,
+                           'is-invalid' : addMemeForm?.get('caption')?.invalid && addMemeForm?.get('caption')?.dirty 
+                        }"
+               ></textarea>
+               <p class="invalid-feedback my-0 py-0" *ngFor="let validation of validationMessages.caption">
+                    <span class="py-0" *ngIf="addMemeForm?.get('caption')?.hasError(validation.type) && (addMemeForm?.get('caption')?.dirty || addMemeForm?.get('caption')?.touched)">{{validation.message}}</span>
+               </p>
+            </div>
+
+     <!-- URL Form Control with Validation -->
+          <div class="form-group mb-0 col-sm-9 col-lg-12  ht-70">
+               <label for="url" class="">ImageUrl</label>
+               <input type="text" class="form-control ft-13" name="url" placeholder="Enter Your Image Url" formControlName="url"
+               [ngClass]="{ 'is-valid' : addMemeForm?.get('url')?.valid && addMemeForm?.get('url')?.dirty ,
+                           'is-invalid' : addMemeForm?.get('url')?.invalid && addMemeForm?.get('url')?.dirty 
+                        }"
+               >
+               <p class="invalid-feedback my-0 py-0" *ngFor="let validation of validationMessages.url">
+                    <span class="py-0" *ngIf="addMemeForm?.get('url')?.hasError(validation.type) && (addMemeForm?.get('url')?.dirty || addMemeForm?.get('url')?.touched)">{{validation.message}}</span>
+               </p>
+          </div>
+
+          <div class="ml-auto mr-3">
+               <button type="button" class="btn px-3 bg-secondary text-white" (click)="closeMemeModal()">Cancel</button>
+               <button *ngIf="meme != undefined" class="btn px-3 ml-2 bg-primary font-weight-bolder text-white cursor-disable" [disabled] = "!addMemeForm.valid" (click)="editMeme()">Edit</button>
+               <button *ngIf="meme == undefined" class="btn px-3 ml-2 bg-primary font-weight-bolder text-white cursor-disable" [disabled] = "!addMemeForm.valid" (click)="addMeme()">Add</button>
+          </div>               
+    </div>
+  </form>

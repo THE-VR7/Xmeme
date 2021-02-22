@@ -1,0 +1,9 @@
+.addbtn{
+    width: fit-content
+
+}
+
+.navheader{
+    border-bottom: 2px solid rgb(194, 190, 190);
+    box-shadow: 1px 1px 5px 3px #ccc ;
+}

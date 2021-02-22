@@ -1,0 +1,13 @@
+/* To set the cursor as pointer */
+.cursor-pointer{
+    cursor: pointer !important;
+}
+
+.cursor-disable:disabled{
+    cursor: not-allowed;
+}
+
+/* To set the font size 13px */
+.ft-13{
+    font-size: 13px !important;
+}
