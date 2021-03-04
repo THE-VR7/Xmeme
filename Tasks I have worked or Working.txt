@@ -1,0 +1,5 @@
+Tasks on which I have worked :-
+Bug 58861: UI issue in showing permissions even without saving.. on page refresh details comes fine
+Bug 59829: Able to disable Login of Global admin by him/herself (Global admin,HR executive and HR Manager)
+Feature 59622: Description & Tags to be cloned while cloning Goal
+Bug 59830: Mails are not triggered to employees when there is spelling correction of the placeholders in the subject of an action
